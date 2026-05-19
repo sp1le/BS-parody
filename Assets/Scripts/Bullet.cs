@@ -32,7 +32,7 @@ public class Bullet : MonoBehaviour
 
     public void StartMove(Vector3 dir,GameObject target)
     {
-        rb.velocity = dir.normalized*info.speed;
+        rb.linearVelocity = dir.normalized*info.speed;
     
     }
 

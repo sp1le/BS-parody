@@ -32,7 +32,7 @@ public class Task2 : MonoBehaviour
     }
     private void Task2Move(InputAction.CallbackContext context)
     {
-        rb.velocity = Vector3.right * speed;
+        rb.linearVelocity = Vector3.right * speed;
     }
 
     void Update()

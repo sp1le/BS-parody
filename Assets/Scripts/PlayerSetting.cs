@@ -18,8 +18,7 @@ public class PlayerSetting : MonoBehaviourPunCallbacks
     private const byte GAME_IS_WIN = 0;
     private const byte SCORE_UPDATED = 1;
     private GameEventsManager gameManager;
-    
-    int counter = 0;
+
     private void Awake()
     {
         pv = GetComponent<PhotonView>();
